@@ -1,0 +1,256 @@
+<style>
+        *{
+            padding:0px;
+            margin:0px;
+            box-sizing: border-box;
+        }
+        .nav-item a{
+            color: white !important;
+        }
+        .nav{
+            position:static;
+            top:0;
+            left:0;
+            background-color:#e5e;
+            border-bottom:2px solid white;
+            box-shadow:0px 7px 29px 0px white;
+            color: white;
+        }
+        .navbar-brand{
+            text-shadow:0px 1px 0px yellow,
+                        0px 2px 0px yellow;
+        }
+        body{
+            background-repeat: no-repeat;
+            background-position:bottom left;
+            background-size:cover;
+        }
+        #home button a{
+            font-size:15px;
+            font-weight:600;
+        }
+        #home button a:hover{
+            box-shadow: 0px 5px 30px 10px plum;
+            background:transparent;
+        }
+            
+        #home{
+            background-color:black;
+            height:100%;
+        }
+        #home h1{
+            color:ghostwhite;
+            font-weight:800;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            justify-content: center;
+            text-shadow:0px 1px 0px black,
+                        0px 2px 0px black,
+                        0px 3px 0px black,
+                        0px 4px 0px black;
+        }
+        .para{
+            color:blue;
+            text-align: center;
+            justify-content: center;
+            font-weight: 600;
+        }
+        #home img{
+            height: 350px;
+            width:100%;
+            animation:ima 2s ease-in-out;
+        }
+        @keyframes ima{
+            0%{
+                transform:translateX(50rem);
+            }
+        }
+        #home h1,.para,button{
+            animation:simple 2s ease-in-out;
+        }
+        @keyframes simple{
+            0%{
+                transform: translateX(-50rem);
+            }
+        }
+        .card-1{
+            animation:card1 2s ease-in-out;
+        }
+        @keyframes card1{
+            0%{
+                transform: translateX(-50rem);
+            }
+        }
+        .card-3{
+            animation:card3 2s ease-in-out;
+        }
+        @keyframes card3{
+            0%{
+                transform: translateX(50rem);
+            }
+        }
+
+        #about{
+            background:#e5e;
+            height:200%;
+        }
+        #about .card{
+            border-top:2px solid black;
+            border-bottom:2px solid black;
+            margin-bottom:62px;
+            margin-top:50px;
+        }
+        .card4{
+            animation:card4 2s ease-in-out;
+        }
+        @keyframes card4{
+            0%{
+                transform: translateX(100%);
+            }
+        }
+
+        .card6{
+            animation:card6 2s ease-in-out;
+        }
+        @keyframes card6{
+            0%{
+                transform: translateX(-100%);
+            }
+        }
+        #about .card:hover{
+            box-shadow:0px 14px 58px 0px black, inset -0px 14px 58px 0px white;
+        }
+
+        #offer{
+            background-image:linear-gradient(rgba(175, 177, 173, 0.3),rgba(170, 159, 199, 0.1)),url(https://media.istockphoto.com/id/1149534139/photo/hipster-handsome-male-model-with-beard-wearing-black-blank-baseball-cap-with-space-for-your.jpg?s=612x612&w=0&k=20&c=LXdVDmny4VcgbjVo1zgpn9VmDilN5ulLmzYqhvM0BXU=);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size: cover;
+            width:100%;
+            height:65vh;
+            border-radius:10px;
+            margin-top:20px;
+        }
+        .offer{
+            margin-top:10px;
+        }
+        .offer h1{
+            font-weight: 900;
+            font-size:50px;
+            text-shadow:1px 1px 1px black,
+                        2px 2px 2px black,
+                        3px 3px 3px black,
+                        4px 4px 4px black,
+                        5px 5px 5px black,
+                        6px 6px 6px black,
+                        7px 7px 7px black;
+            letter-spacing:5px;
+        }
+        .offer p{
+            font-weight: 800;
+            font-size:40px;
+            text-shadow:1px 1px 1px black,
+                        2px 2px 2px black,
+                        3px 3px 3px black,
+                        4px 4px 4px black,
+                        5px 5px 5px black,
+                        6px 6px 6px black,
+                        7px 7px 7px black;
+            letter-spacing:3px;
+        }
+        .img{
+            height:100px;
+            width:50%;
+        }
+        .text{
+            font-weight: 900;
+            word-spacing:2px;
+            text-shadow:1px 1px 1px black,
+                        2px 2px 2px black,
+                        3px 3px 3px black,
+                        4px 4px 4px black,
+                        5px 5px 5px black,
+                        6px 6px 6px black,
+                        7px 7px 7px black;
+        }
+        #products{
+            background-color:black;
+            margin-top:20px;
+            padding-bottom:20px;
+        }
+        #products p{
+            font-weight: 900;
+            font-size:15px;
+        }
+        .product{
+            background:yellow;
+            margin-top:7px;
+            padding-bottom:5px;
+        }
+        .product p{
+            font-weight: 900;
+            font-size:20px;
+        }
+        .product button a{
+            text-decoration: none;
+            color: azure;
+            background: transparent;
+        }
+        .product button a:hover{
+            background: transparent !important;;
+
+        }
+        #contact{
+            background-color:rgba(170, 159, 199, 0.3);
+            margin-top:7px;
+            height:120%;
+            width:100%;
+            background-size:cover;
+        }
+        .form3{
+            background-color: rgb(193, 194, 192);
+            padding-top:10px;
+            padding-bottom:10px;
+            padding-left:20px;
+            padding-right:20px;
+            width: 100%;
+            border-radius:10px;
+        }
+
+        form button{
+            border-radius: 10%;
+            border:2px solid black;
+        }
+
+        #contact button{
+            border:2px solid black;
+        }
+
+        #search{
+            background-color:transparent;
+        }
+        #search:hover{
+            background-color:black;
+            border-radius:10%;
+            border:1px solid yellow;
+        }
+
+        #shopping:hover{
+            background-color:black;
+            border-radius: 10%;
+            border: 1px solid yellow;
+        }
+
+        #user:hover{
+            background-color:black;
+            border-radius: 10%;
+            border: 1px solid yellow;
+        }
+
+        #heart:hover{
+            background-color:black;
+            border-radius: 10%;
+            border: 1px solid yellow;
+        }
+
+</style>
