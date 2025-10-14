@@ -40,7 +40,6 @@ above any one editors is enough to create and execute the projects and code.
 ![Screenshot2](https://github.com/user-attachments/assets/9328d10b-32a0-4d71-8aaf-1f598ec63a08)
 
 ---
-<img width="1920" height="1080" alt="Screenshot 2025-10-14 190352" src="https://github.com/user-attachments/assets/87bd9102-ed4b-49ef-b5e6-16cc92feb537" />
 
 
 ![Screenshot3](https://github.com/user-attachments/assets/051743ec-acab-4631-aaa2-f9363d31148e)
